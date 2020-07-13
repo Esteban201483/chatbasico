@@ -18,7 +18,7 @@ const urlEncodedParser = bodyParser.urlencoded({extended : false});
 app.use(urlEncodedParser);
 
 const directorioPaginas = "/test/"; //TODO: Reestructurar proyecto
-const puerto = 80;
+const puerto = 2021;
 
 
 //Configura el websocket
