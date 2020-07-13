@@ -1,0 +1,60 @@
+/*
+Paleta de colores tomada del sitio web https://colorswall.com/palette/5661/
+*/
+
+html,body,main
+ {
+	 height : 100%;
+	 background-color: #444444;
+ }
+
+ main
+ {
+	 /*display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;*/
+ }
+
+ #botonMensaje
+ {
+	margin-left : 65%;
+ }
+
+ #textoMensaje
+ {
+
+	 margin-top : 5%;
+	 margin-left : 10%;
+	 width : 80%;
+ }
+
+ #mensajes 
+ {
+	height: 100%;
+}
+
+#contenedorMensajes
+{
+
+	background-color: #eaeaea;
+	min-height: 500px;
+	max-width: 450px;
+	min-width: 400px;
+	margin-left:35%;
+	margin-top:3%;
+	overflow-y: auto;
+	max-height: 450px;
+}
+
+#contenedorAcciones
+{
+
+	background-color: #9e9c9c;
+	min-height: 100px;
+	max-width: 450px;
+	min-width: 400px;
+	margin-left:35%;
+	
+	
+
+}
